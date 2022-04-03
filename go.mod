@@ -10,7 +10,7 @@ require (
 	github.com/jackc/pgconn v1.11.0
 	github.com/jackc/pgx/v4 v4.15.0
 	github.com/justinas/nosurf v1.1.1
-	github.com/xhit/go-simple-mail/v2 v2.11.0
+	// github.com/xhit/go-simple-mail/v2 v2.11.0
 	golang.org/x/crypto v0.0.0-20220331220935-ae2d96664a29
 )
 
