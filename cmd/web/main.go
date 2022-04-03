@@ -18,7 +18,7 @@ import (
 	"github.com/omkar8898/bookings-main/internal/render"
 )
 
-const portNumber = ":8080"
+var portNumber = os.Getenv("PORT")
 
 var app config.AppConfig
 var session *scs.SessionManager
