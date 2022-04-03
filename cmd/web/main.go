@@ -35,7 +35,7 @@ func main() {
 	defer close(app.MailChan)
 
 	fmt.Println("Staring mail listener...")
-	listenForMail()
+	// listenForMail()
 
 	fmt.Println(fmt.Sprintf("Starting application on port %s", portNumber))
 
